@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+.hg {
+    font-family: "Permanent Marker", sans-serif; 
+    color:#7cada6;
+    text-align:center;
+    padding-top: 9em;
+    padding-bottom: 9em;
+    line-height: 3em;
+    background-size: cover;
+}
+.hg-r1 {
+    font-size: 6em;
+    line-height: 1.1em;
+}
+.hg-r2 {
+    font-size: 2em;
+    line-height: 1em;
+}
+.header {
+    width: 100%;
+    justify-content: flex-end;
+    background-color: #7cada6;
+}
+.header h2 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-family: "permanent marker", sans-serif;
+    color: white;
+    margin-top: 0px;
+    margin-right: 8px;
+    
+}
+.header h2:hover {
+    text-shadow: 2px 4px;
+    cursor: pointer;
+}
+@media screen and (min-width: 576px;) {
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+}
+.links {
+    background-color: #a0babf;
+    border: 4px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    line-height:6em;
+    width:100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 520px;
+    height: 220px;
+    margin: 15px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: black;
+    justify-content: space-between;
+    padding-right: 8px;
+}
+.card:hover {
+    box-shadow: 5px 10px;
+}
+.card h4 {
+    line-height: 15px;
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 20px;
+}
+.card p {
+    line-height: 15px;
+    font-family: "Permanent Marker", sans-serif;
+}
+.card .links-r1 {
+    line-height: 30px;
+}
+.row {
+    width: 100%;
+}
+.container {
+    display: block;
+}
+.image {
+    max-width: 300px;
+    height: 100%;
+    border-top-left-radius: 15px;
+}
+.links-r1 {
+    
+    background-color: #788284;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 1.5em;
+    margin:2em;
+}
+.links-r1 :hover {
+    cursor: grabbing;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+    background-color: #7cada6;
+}
+.footer
+.push {
+    height: 50px;
+}
